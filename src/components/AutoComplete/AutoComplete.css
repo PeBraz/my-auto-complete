@@ -1,0 +1,44 @@
+
+.my-auto-complete__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-auto-complete__input {
+  border: 0;
+  border-bottom: 1px solid;
+  width: 100%;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px 5px;
+  padding-right: 30px;
+  border-color: inherit;
+}
+
+.my-auto-complete__input-field {
+  position: relative;
+}
+.my-auto-complete__input-field--error {
+  position: relative;
+  color: red;
+  border-color: red;
+}
+
+
+.my-auto-complete__status {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+
+.my-auto-complete__list-item {
+  padding: 7px 5px;
+  cursor: pointer;
+}
+
+.my-auto-complete__list-item:hover {
+  background: #f5f5f5;
+}
