@@ -1,10 +1,11 @@
 # My Auto Complete
 
-This is a input with dropdown component made in React.
+This is an auto complete component made in React.
 The component itself can be accessed in *src/components/AutoComplete.js*.
-I used create-react-app to focus on the component itself without having to worrying about having to configure babel, webpack and eslint.
 
-I made a sample code in src/App.js that showcases how to use the input asynchronously with a simple call to github's api.
+I used create-react-app to focus on the component itself, without having to worry about configuring babel, webpack and eslint.
+
+The sample code in src/App.js showcases how to use the input asynchronously with a simple call to github's api.
 Typing will search for github repositories.
 
 For trying out the component run `yarn start`
